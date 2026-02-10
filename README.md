@@ -8,14 +8,19 @@ A fast, keyboard-first TUI app for creating and managing multiple lists (to-dos,
 ```bash
 uv sync
 lyst
-lyst groceries
 ```
 
 ### pip
 ```bash
 pip install .
 lyst
-lyst groceries
+```
+
+### From wheel
+```bash
+uv pip install dist/lyst-0.1.0-py3-none-any.whl
+# or
+pip install dist/lyst-0.1.0-py3-none-any.whl
 ```
 
 ### Run without installing
@@ -23,7 +28,12 @@ lyst groceries
 uv run python main.py
 # or
 python main.py
-python main.py groceries
+```
+
+## Usage
+```bash
+lyst              # open list index
+lyst groceries    # open or create a list by name
 ```
 
 ## Key Bindings
