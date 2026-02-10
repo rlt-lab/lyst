@@ -2,17 +2,28 @@
 
 A fast, keyboard-first TUI app for creating and managing multiple lists (to-dos, groceries, etc.).
 
-## Run
-```bash
-uv run python main.py
-uv run python main.py groceries
-```
+## Install
 
-## Install Script
+### uv
 ```bash
 uv sync
 lyst
 lyst groceries
+```
+
+### pip
+```bash
+pip install .
+lyst
+lyst groceries
+```
+
+### Run without installing
+```bash
+uv run python main.py
+# or
+python main.py
+python main.py groceries
 ```
 
 ## Key Bindings
